@@ -1,0 +1,20 @@
+1.git : 형상 기억 관리 툴
+> 버전 관리해주는 도구
+> 개발 : 협업 (내가 + 동료) => 합쳐서 => 최종!!
+> 어제 // 오늘
+
+2.git 다운로드 > 로컬컴퓨터
+
+3.git 소유주 정보
+git config --list
+
+4.원격 저장소
+https://github.com/
+
+git init
+git add .
+git status
+git remote add origin https://github.com/Divjason/sbsfinalproject.git
+git remote -v
+git commit -m "firstcommit"
+git push origin master
